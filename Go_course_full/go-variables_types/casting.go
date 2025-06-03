@@ -5,12 +5,12 @@ Write a function that accepts a float64 value, rounds it to the nearest integer,
 
 package main
 
-import "fmt
-		math
-"
+import (
+	"math"
+)
 
 func Castings(n float64) int {
-	value := int(math.rounds(n))
+	value := int(math.Round(n))
 
 	return value
 }
