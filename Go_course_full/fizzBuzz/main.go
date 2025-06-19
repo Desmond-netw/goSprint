@@ -18,5 +18,5 @@ func fizzBuzz(n int32) {
 }
 
 func main() {
-    fizzBuzz(12) // Example: Prints FizzBuzz for 1 to 15
+    fizzBuzz(63) // Example: Prints FizzBuzz for 1 to 15
 }
