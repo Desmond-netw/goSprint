@@ -2,10 +2,7 @@ package main
 
 // using hash methods
 
-import (
-	"fmt"
-	"sort"
-)
+import "sort"
 
 func hasDuplicateSorted(arr []int) bool {
 	sort.Ints(arr)
@@ -21,9 +18,4 @@ func hasDuplicateSorted(arr []int) bool {
 	}
 	return false
 
-}
-
-func main() {
-	myarr := []int{2, 3, 1, 2, 4, 5}
-	fmt.Println(hasDuplicateSorted(myarr))
 }
