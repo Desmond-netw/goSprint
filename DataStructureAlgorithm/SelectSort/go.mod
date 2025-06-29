@@ -1,0 +1,3 @@
+module mainTool
+
+go 1.24.3
