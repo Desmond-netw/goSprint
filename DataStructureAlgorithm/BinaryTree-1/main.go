@@ -19,4 +19,16 @@ func main() {
 	nodeF := &TreeNode{data: "F"}
 	nodeG := &TreeNode{data: "G"}
 
+	//linke the nodes
+	root.left = nodeA
+	root.right = nodeB
+
+	nodeA.left = nodeC
+	nodeA.right = nodeD
+
+	nodeB.left = nodeE
+	nodeB.right = nodeF
+
+	nodeE.left = nodeG
+
 }
