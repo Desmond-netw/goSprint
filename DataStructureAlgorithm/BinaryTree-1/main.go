@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // use struct for custome types
 type TreeNode struct {
 	data  string
@@ -30,5 +32,20 @@ func main() {
 	nodeB.right = nodeF
 
 	nodeE.left = nodeG
+
+	//Print from linked
+	fmt.Println("Get data room root.Right.Left.Data: ", root.right.left.data)
+
+	/*
+			R
+			/\
+		   /  \
+		  A    B
+		 / \  / \
+		C   D E  F
+			  /
+			 G
+
+	*/
 
 }
